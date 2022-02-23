@@ -32,6 +32,6 @@ stages:
       inputs:
         containerRegistry: |
           dockerhub
-        repository: $(imageName)
+        repository: bjgomes/movie_apps
         command: push
         tags: latest
